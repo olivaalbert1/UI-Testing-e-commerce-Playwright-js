@@ -69,7 +69,6 @@ We can also use tags to assign some tests to certain environments, but that was 
    })
    ```
 <br> * The tests are optimized to minimize wait times, only pausing for page loads or element visibility. 'await page.waitForTimeout(3000)' should be avoided.
-<br> * I attempted to implement a dynamic keystroke simulation using an array-based parameter and a foreach loop, but the execution was too fast for the page to respond. This feature had to be omitted, which is unfortunate as it would have been highly reusable.
 <br> * I've selected Chrome as the default browser, but others can be added, and tests can even be run on mobile devices.
 ```js
    /* Configure projects for major browsers */
